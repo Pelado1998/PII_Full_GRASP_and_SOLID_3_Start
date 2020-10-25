@@ -7,25 +7,10 @@ using System;
 using System.IO;
 
 namespace Full_GRASP_And_SOLID.Library
-{
-    public enum Destination
-    {
-        Console,
-        File
-    }
-
+{   
     public class AllInOnePrinter
     {
-        public void PrintRecipe(Recipe recipe, Destination destination)
-        {
-            if (destination == Destination.Console)
-            {
-                Console.WriteLine(recipe.GetTextToPrint());
-            }
-            else
-            {
-                File.WriteAllText("Recipe.txt", recipe.GetTextToPrint());
-            }
-        }
+        public void PrintConsoleRecipe(Recipe recipe) => Console.WriteLine(recipe.GetTextToPrint());
+        public void PrintFileRecipe(Recipe recipe) => File.WriteAllText("Recipe.txt", recipe.GetTextToPrint());
     }
 }
