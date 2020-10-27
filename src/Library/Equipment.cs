@@ -6,6 +6,10 @@
 
 namespace Full_GRASP_And_SOLID.Library
 {
+    /// <summary>
+    /// Cumple Expert 
+    /// Cumple SRP
+    /// </summary>
     public class Equipment
     {
         public Equipment(string description, double hourlyCost)
