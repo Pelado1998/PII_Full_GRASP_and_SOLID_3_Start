@@ -10,7 +10,7 @@ using System.IO;
 namespace Full_GRASP_And_SOLID.Library
 {
     /// <summary>
-    /// Cumple con SRP 
+    /// Cumple con SRP ya que solo tiene una razón de cambio.
     /// Cumple con expert ya que es responsable de las impresiones.
     /// Cumple con OCP ya que es abierto a futuras extensiones(ya que se pueden agregar mas "canales de impresion") y cerrado a modificaciones.
     /// </summary>

@@ -10,8 +10,8 @@ using System.Collections.Generic;
 namespace Full_GRASP_And_SOLID.Library
 {
     /// <summary>
-    /// Cumple Expert 
-    /// Cumple SRP
+    /// Cumple Expert  ya que es el responsable de contener la información sobre Recipe
+    /// Cumple SRP ya que solo tiene una razón de cambio.
     /// </summary>
     public class Recipe
     {
