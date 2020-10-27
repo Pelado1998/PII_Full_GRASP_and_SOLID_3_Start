@@ -8,6 +8,11 @@ using System.IO;
 
 namespace Full_GRASP_And_SOLID.Library
 {
+    /// <summary>
+    /// Cumple con SRP 
+    /// Cumple con exprt ya que es responsable de las impresoiones.
+    /// Cumple con OCP ya que es abierto a futuras extensiones(ya que se pueden agregar mas "canales de impresion") y cerrado a modificaciones.
+    /// </summary>
     public enum Destination
     {
         Console,

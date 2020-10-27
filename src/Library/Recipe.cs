@@ -9,6 +9,10 @@ using System.Collections.Generic;
 
 namespace Full_GRASP_And_SOLID.Library
 {
+    /// <summary>
+    /// Cumple Expert 
+    /// Cumple SRP
+    /// </summary>
     public class Recipe
     {
         private IList<Step> steps = new List<Step>();
